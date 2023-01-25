@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit';
+}
+
+.container {
+    margin: 60px auto;
+    background-color: hsl(216, 50%, 16%);
+    width: 290px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow:  0 10px 30px rgb(0, 0, 0, 0.3);
+}
+
+.image {
+    display: flex;
+    margin: 0 auto;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.view-icon {
+    opacity: 0;
+    position: absolute;
+    padding: 101px;
+    border-radius: 10px;
+}
+
+.view-icon:hover {
+    opacity: 1;
+    background-color: rgb(0, 255, 247, .5);
+    transition: .6s;
+    cursor: pointer;
+}
+
+.title {
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.paragraph {
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+    padding-top: 10px;
+    line-height: 1.4;
+}
+
+.info {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.eth-font {
+    color: hsl(178, 100%, 50%);
+    font-size: 14px;
+}
+
+.clock-font {
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+}
+
+.eth-icon, .clock-icon {
+    margin-right: 3px;
+    position: relative;
+    top: 3px;
+}
+
+.line {
+    margin: 15px 0 15px 0;
+    background-color: hsl(215, 32%, 27%);
+    width: 100%;
+    height: 1px;
+}
+
+.avatar {
+    width: 30px;
+    border: 1.5px solid white;
+    border-radius: 50%;
+}
+
+.credits {
+    display: flex;
+    gap: 10px;
+}
+
+.credits-paragraph {
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+    margin: 6px 0 0 0;
+}
+
+a:hover {
+    transition: 1.5s;
+    color: hsl(178, 100%, 50%);
+}
