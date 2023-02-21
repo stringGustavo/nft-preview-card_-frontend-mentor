@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
 body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: hsl(217, 54%, 11%);
     font-family: 'Outfit';
 }
 
 .container {
-    margin: 60px auto;
     background-color: hsl(216, 50%, 16%);
-    width: 290px;
+    width: 350px;
+    height: 605px;
     padding: 20px;
     border-radius: 10px;
     position: relative;
@@ -18,14 +22,14 @@ body {
 .image {
     display: flex;
     margin: 0 auto;
-    width: 250px;
+    width: 310px;
     border-radius: 10px;
 }
 
 .view-icon {
     opacity: 0;
     position: absolute;
-    padding: 101px;
+    padding: 131px;
     border-radius: 10px;
 }
 
@@ -37,32 +41,32 @@ body {
 }
 
 .title {
-    padding-top: 20px;
+    padding-top: 25px;
     color: white;
-    font-size: 20px;
+    font-size: 1.4rem;
 }
 
 .paragraph {
     color: hsl(215, 51%, 70%);
-    font-size: 15px;
-    padding-top: 10px;
+    font-size: 1.12rem;
+    padding-top: 15px;
     line-height: 1.4;
 }
 
 .info {
-    padding-top: 15px;
+    padding: 25px 0 10px 0;
     display: flex;
     justify-content: space-between;
 }
 
 .eth-font {
     color: hsl(178, 100%, 50%);
-    font-size: 14px;
+    font-size: 1rem;
 }
 
 .clock-font {
     color: hsl(215, 51%, 70%);
-    font-size: 14px;
+    font-size: 1rem;
 }
 
 .eth-icon, .clock-icon {
@@ -86,13 +90,13 @@ body {
 
 .credits {
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 
 .credits-paragraph {
     color: hsl(215, 51%, 70%);
-    font-size: 14px;
-    margin: 6px 0 0 0;
+    font-size: 1rem;
+    margin: 5px 0 0 0;
 }
 
 a:hover {
